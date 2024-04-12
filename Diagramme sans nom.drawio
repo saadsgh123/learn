@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T16:02:28.545Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xNt4KqfgnyaC9Ve-E4oN" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-12T19:00:51.369Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="xjikE9C1GzENCiV0WW4j" version="24.2.3" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="sss tables">
-    <mxGraphModel dx="1122" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1272" dy="853" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,26 +80,26 @@
         <mxCell id="rGMy647F3aUfElQ3z4R2-72" value="+ transfertID&lt;div&gt;+ fromLoc&lt;/div&gt;&lt;div&gt;+ toLoc&lt;/div&gt;&lt;div&gt;+&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" parent="rGMy647F3aUfElQ3z4R2-71" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="TyCalr-xHSoBlGyGHIor-1" value="Sales history (joined table)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TyCalr-xHSoBlGyGHIor-1" value="Sales history (joined table)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="630" width="160" height="110" as="geometry">
             <mxRectangle x="40" y="355" width="80" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyCalr-xHSoBlGyGHIor-2" value="+ date&lt;div&gt;+ itemN°&lt;/div&gt;&lt;div&gt;+ Sum of sales&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;shadow=0;" vertex="1" parent="TyCalr-xHSoBlGyGHIor-1">
+        <mxCell id="TyCalr-xHSoBlGyGHIor-2" value="+ date&lt;div&gt;+ itemN°&lt;/div&gt;&lt;div&gt;+ Sum of sales&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;shadow=0;" parent="TyCalr-xHSoBlGyGHIor-1" vertex="1">
           <mxGeometry y="50" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="TyCalr-xHSoBlGyGHIor-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LkopXb36xxZR5AUqXxiM-8" target="TyCalr-xHSoBlGyGHIor-2">
+        <mxCell id="TyCalr-xHSoBlGyGHIor-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="LkopXb36xxZR5AUqXxiM-8" target="TyCalr-xHSoBlGyGHIor-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="TyCalr-xHSoBlGyGHIor-9" value="Weekly sales" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="TyCalr-xHSoBlGyGHIor-9" value="Weekly sales" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="600" width="160" height="120" as="geometry">
             <mxRectangle x="40" y="355" width="80" height="50" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyCalr-xHSoBlGyGHIor-10" value="+ week N°&lt;div&gt;+ itemN°&lt;/div&gt;&lt;div&gt;+ AWS&lt;/div&gt;&lt;div&gt;+ EWK&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;shadow=0;" vertex="1" parent="TyCalr-xHSoBlGyGHIor-9">
+        <mxCell id="TyCalr-xHSoBlGyGHIor-10" value="+ week N°&lt;div&gt;+ itemN°&lt;/div&gt;&lt;div&gt;+ AWS&lt;/div&gt;&lt;div&gt;+ EWK&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;shadow=0;" parent="TyCalr-xHSoBlGyGHIor-9" vertex="1">
           <mxGeometry y="50" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="TyCalr-xHSoBlGyGHIor-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TyCalr-xHSoBlGyGHIor-10" target="TyCalr-xHSoBlGyGHIor-2">
+        <mxCell id="TyCalr-xHSoBlGyGHIor-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="TyCalr-xHSoBlGyGHIor-10" target="TyCalr-xHSoBlGyGHIor-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
